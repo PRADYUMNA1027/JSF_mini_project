@@ -46,3 +46,16 @@ using spring initializer
             -> generated a code of length 6
             -> saves it to database via repository
             -> returns the saved object
+
+        -> created ServiceTestController.java (possible deprication)
+            -> used to test whether service works
+            -> following api endpoints were hit:
+
+                -> http://localhost:8081/test-save?text=hello
+
+                    returned a json file with all id,code,content,created_at --> sucessfull !
+                
+                -> http://localhost:8081/test-get?code=YY0Q2G
+
+                    returned a json file with id,code,content,created_at of the tuple with the above code --> successfull !
+
