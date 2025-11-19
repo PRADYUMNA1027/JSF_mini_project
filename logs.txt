@@ -1,5 +1,8 @@
 18/11/25 : Reegan Suman (flingo_b)
-
+           Pradyumna Bhandary
+           Prajwal Inna
+           Prakyath Ashok Shetty
+           Prajay Varma
 installed extensions for VS code
     -> Extension pack for java
     -> spring boot extension pack
