@@ -59,3 +59,15 @@ using spring initializer
 
                     returned a json file with id,code,content,created_at of the tuple with the above code --> successfull !
 
+serving static files:
+    ->go to src->main->resources->create a new folder called static->create a new file index.html
+
+    ->inside the static folder create two new folders one for css and another one for js
+
+    ->add html , css and js file this is serverd at the default of th localhost:8081/
+
+    ->by default static file index.html will get loaded(Welcome file)
+    
+    ->refer index.html , style.css and app.js which are embedded with comments for understanding
+
+
